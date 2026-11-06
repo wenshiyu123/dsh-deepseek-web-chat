@@ -1,0 +1,54 @@
+{
+  "name": "dsh-deepseek-web-chat",
+  "version": "1.0.0",
+  "description": "Floating window for the official DeepSeek web chat inside DeepSeek Harness (DSH), with remembered sign-in.",
+  "type": "module",
+  "license": "MIT",
+  "author": "wenshiyu123",
+  "homepage": "https://github.com/wenshiyu123/dsh-deepseek-web-chat#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenshiyu123/dsh-deepseek-web-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wenshiyu123/dsh-deepseek-web-chat/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "chat",
+    "webview",
+    "electron"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs/*.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: deepseek-web-chat
+      name: 'dsh-deepseek-web-chat'

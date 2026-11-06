@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DeepSeek web chat">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B7BFF"/>
+      <stop offset="1" stop-color="#2F4BD8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#bg)"/>
+  <path d="M18 21.5A4.5 4.5 0 0 1 22.5 17h19a4.5 4.5 0 0 1 4.5 4.5v14a4.5 4.5 0 0 1-4.5 4.5H30.6L23 45.6c-.9.8-2.3.1-2.3-1.1V40A4.5 4.5 0 0 1 18 35.5v-14Z" fill="#FFFFFF"/>
+  <path d="M25 26.5h14M25 32.5h9" stroke="#3D5AF0" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
