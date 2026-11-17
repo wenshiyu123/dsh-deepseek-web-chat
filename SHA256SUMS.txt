@@ -1,0 +1,3 @@
+88395d60ca9a4fa9cf21f0932f06f0459bc6c9146405d0c634a9f93597f724b3  dsh-deepseek-web-chat-1.0.1.tgz
+f65e26666941a080996be4393eaa6271ed649cda1800afd43a4d68cfbf480f14  dsh-deepseek-web-chat-1.0.1.zip
+d7b39d3c230e52c0a7d43f4f8b6fd84753d339b4eb5b678ef8f972006e926db6  dsh-deepseek-web-chat-1.0.1-repo-root.zip
